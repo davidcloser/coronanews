@@ -7,7 +7,7 @@ url = "https://pt.wikipedia.org/wiki/Lista_de_concelhos_por_NUTS,_distritos_e_il
 
 def clear_brackets(name: str) -> str:
     """ Clears brackets for example [2] from the provided string """
-    return re.sub(r"\[.*\]", "", name)
+    return re.sub(r"\[.*\]|\(.*\)", "", name)
 
 
 locations = pd.read_html(url)
