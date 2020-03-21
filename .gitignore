@@ -1,0 +1,9 @@
+/venv/
+.idea/
+/Scraper/scripts/regiaoSul_jornal.py
+__pycache__/
+/random/
+random/*.py
+/output/*
+
+/random.py
