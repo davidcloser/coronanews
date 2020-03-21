@@ -1,2 +1,7 @@
-url;path_to_date;path_to_title;path_to_content
-https://www.publico.pt/;.dateline;h1.headline;#story-body
+url,path_to_title,path_to_content
+https://www.publico.pt,h1.headline,#story-body
+https://www.cmjornal.pt,.main_article > h1:nth-child(1),.texto_container
+https://www.dn.pt,.t-af1-head-title,.t-af1-c1-body
+https://www.jornaldabeira.net,h1.post-title,.entry-content
+https://www.sabado.pt,.noticiaTitle > div:nth-child(1) > article:nth-child(1) > h1:nth-child(2) > a:nth-child(1),.contentDestaque
+https://www.diariodominho.pt,#title_post,div.col-md-12:nth-child(7)
