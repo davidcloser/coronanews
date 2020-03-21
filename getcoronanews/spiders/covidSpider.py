@@ -5,7 +5,12 @@ from urllib.parse import urlparse
 import pandas as pd
 from unidecode import unidecode
 
-websites_data = pd.read_csv("websites.csv", index_col=0)
+websites_data = pd.read_csv("data/websites.csv", index_col=0)
+
+# List of districts
+pt_df = pd.read_csv("data/pt.csv")
+madeira_df = pd.read_csv("data/madeira.csv")
+acores_df = pd.read_csv("data/acores.csv")
 
 
 class CovidSpider(CrawlSpider):
